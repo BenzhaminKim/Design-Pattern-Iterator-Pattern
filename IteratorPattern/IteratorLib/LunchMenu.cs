@@ -36,6 +36,9 @@ namespace IteratorLib
         {
             return items;
         }
-        
+        public Iterator CreateLunchIterator()
+        {
+            return new LunchIterator(items);
+        }
     }
 }

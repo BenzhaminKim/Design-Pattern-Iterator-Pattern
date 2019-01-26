@@ -11,6 +11,10 @@ namespace IteratorPatternDemo
     {
         static void Main(string[] args)
         {
+            LunchMenu lunchMenu = new LunchMenu();
+
+            Waitress waitress = new Waitress(lunchMenu);
+            waitress.PrintMenu();
         }
     }
 }

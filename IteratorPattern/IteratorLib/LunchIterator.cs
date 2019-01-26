@@ -6,23 +6,34 @@ using System.Threading.Tasks;
 
 namespace IteratorLib
 {
-    class LunchIterator : Iterator
+    public  class LunchIterator : Iterator
     {
         private ItemMenu[] itemMenu;
         private uint position;
         
-        public LunchIterator()
+        public LunchIterator(ItemMenu[] lunchMenuItems)
         {
-
+            itemMenu = lunchMenuItems;
         }
+        
+
         public bool HasNext()
         {
-            throw new NotImplementedException();
+            if(position >= itemMenu.Length || itemMenu[position] == null)
+            {
+                return false;
+            }
+            else
+            {
+                return true;
+            }
         }
 
         public object Next()
         {
-            throw new NotImplementedException();
+            ItemMenu item = itemMenu[position];
+            position++;
+            return item;
         }
     }
 }

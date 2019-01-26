@@ -41,7 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DinnerMenu.cs" />
+    <Compile Include="Waitress.cs" />
     <Compile Include="ItemMenu.cs" />
     <Compile Include="Iterator.cs" />
     <Compile Include="LunchIterator.cs" />

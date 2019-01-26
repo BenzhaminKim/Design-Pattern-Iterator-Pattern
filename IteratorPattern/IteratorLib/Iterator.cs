@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace IteratorLib
 {
-    interface Iterator
+    public interface Iterator
     {
         bool HasNext();
         object Next();
