@@ -3,14 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using IteratorLib;
 
-namespace IteratorPatternDemo
+namespace IteratorLib
 {
-    class Program
+    interface Iterator
     {
-        static void Main(string[] args)
-        {
-        }
+        bool HasNext();
+        object Next();
     }
 }

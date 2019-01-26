@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.271
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IteratorPatternDemo", "IteratorPatternDemo\IteratorPatternDemo.csproj", "{23EF8F05-CCA3-420A-A972-2284037B755E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IteratorLib", "IteratorLib\IteratorLib.csproj", "{6003AEF0-F342-4765-96CA-16FD842D4814}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{23EF8F05-CCA3-420A-A972-2284037B755E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23EF8F05-CCA3-420A-A972-2284037B755E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23EF8F05-CCA3-420A-A972-2284037B755E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6003AEF0-F342-4765-96CA-16FD842D4814}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6003AEF0-F342-4765-96CA-16FD842D4814}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6003AEF0-F342-4765-96CA-16FD842D4814}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6003AEF0-F342-4765-96CA-16FD842D4814}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
